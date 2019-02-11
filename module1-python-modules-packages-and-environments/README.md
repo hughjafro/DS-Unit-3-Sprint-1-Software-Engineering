@@ -7,7 +7,7 @@ Places for your code (and dependencies) to live.
 - Understand and follow Python namespaces and imports
 - Create a Python package and install dependencies in a dedicated environment
 
-## Before Lecture
+## Before Lecture - done
 
 Install [Anaconda](https://www.anaconda.com/distribution) on your local machine
 if you haven't already, and read the official documentation for
