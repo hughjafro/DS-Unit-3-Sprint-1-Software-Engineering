@@ -231,9 +231,22 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  
+  Important parts of code reviews are readability, ease of understanding, does
+  it follow good coding guidelines like PEP8, is it DRY and are functions written
+  in manageable pieces (not too big). But, probably the most important thing to 
+  consider when reviewing code - is it well commented. A well commented code makes
+  it easy to follow the logic.
+  
+  
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+  
+  Containers are useful in reducing startup runtime of an application. Containers are
+  lighter than virtual machines since it will share an OS rather than spinning up
+  multiple OS's. A container will create an image of the OS which significantly reduces
+  startup time, uses less memory and easily mimics native OS functionality.
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
