@@ -22,7 +22,8 @@ class AcmeProductTests(unittest.TestCase):
         self.assertEqual(prod.weight, 20)
 
     def test_product_methods(self):
-        prod = Product('Test Product', 10,10,)
+        prod = Product('Test Product', weight=100, price=30,
+                       flammability=2)
         self.assertEqual(prod.stealability(), 'Very Stealable!')
         self.assertEqual(prod.explode, '...BABOOM',)
 
