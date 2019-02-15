@@ -232,23 +232,27 @@ career here, you'll have to answer the following:
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
   
+- We have an awful lot of computers here, and it gets pretty confusing with
+  slightly different things running on all of them. How could containers help us
+  improve this situation?
+  
   Important parts of code reviews are readability, ease of understanding, does
   it follow good coding guidelines like PEP8, is it DRY and are functions written
   in manageable pieces (not too big). But, probably the most important thing to 
   consider when reviewing code - is it well commented. A well commented code makes
   it easy to follow the logic.
   
+  Containers are useful for separating parts of your application so they can run
+  independently of each other, especially if there are multiple software concerns.
+  These concerns can be a simple as how your application will run for different 
+  versions of software or to be able to allocate more resources to only one part of 
+  your application as your users increase past a certain threshold.
   
-- We have an awful lot of computers here, and it gets pretty confusing with
-  slightly different things running on all of them. How could containers help us
-  improve this situation?
-  
-  Containers are useful in reducing startup runtime of an application. Containers are
-  lighter than virtual machines since it will share an OS rather than spinning up
-  multiple OS's. A container will create an image of the OS which significantly reduces
-  startup time, uses less memory and easily mimics native OS functionality.
+  Containers are lighter than virtual machines since it will share an OS rather 
+  than spinning up multiple OS's. A container will create an image of the OS 
+  which significantly reduces startup time, uses less memory and easily mimics 
+  native OS functionality.
 
-Answer both of these questions (baseline ~5 sentences) here in text.
 
 ### Part 8 - Turn it in!
 
