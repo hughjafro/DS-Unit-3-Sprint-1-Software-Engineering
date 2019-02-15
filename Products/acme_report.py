@@ -5,12 +5,12 @@ import random
 
 
 '''
-This module will generate random products and 
+This module will generate random products and
 print a summary of them.
 '''
 
 adjectives = ['Awesome', 'Shiny', 'Impressive',
-  'Portable', 'Improved']
+              'Portable', 'Improved']
 nouns = ['Anvil', 'Catapult' 'Disguise' 'Mousetrap', '???']
 
 
@@ -22,21 +22,22 @@ def generate_products(N=30):
 
     for i in range(N):
         product = Product(
-        name = random.choice(adjectives) + " "
-         + random.choice(nouns)
-        price = random.randint(5,100)
-        weight = random.randint(5,100)
-        flammability = random.uniform(0.0,2.5))
-
+            name=random.choice(adjectives) +
+            " " + random.choice(nouns)
+            price=random.randint(5, 100)
+            weight=random.randint(5, 100)
+            flammability=random.uniform(0.0, 2.5)
+            )
         products.append(product)
     return products
+
 
 def inventory_reports():
     '''
     This will take a list of products and print a summary
     '''
     print("ACME CORPORATION OFFICIAL INVENTORY REPORT\N")
-    
+
     total_products = len(products)
 
     for i in products:

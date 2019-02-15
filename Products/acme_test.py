@@ -23,7 +23,7 @@ class AcmeProductTests(unittest.TestCase):
 
     def test_product_methods(self):
         prod = Product('Test Product', 10,10,)
-        self.assertEqual(prod.stealability(), 'Very Stealable!' )
+        self.assertEqual(prod.stealability(), 'Very Stealable!')
         self.assertEqual(prod.explode, '...BABOOM',)
 
 if __name__ == '__main__':
